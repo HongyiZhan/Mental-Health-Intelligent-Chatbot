@@ -1,8 +1,8 @@
 
-```markdown
+https://hongyizhan.github.io/Mental-Health-Intelligent-Chatbot/
 # Mental Health Chatbot Project
 
-![Chatbot](images/chatbot-image.png)
+![Chatbot](image.png)
 ![Logo](images/logo-image.png)
 
 Welcome to the Mental Health Chatbot project! This project is designed to provide a friendly, supportive, and confidential environment for users to discuss their mental health concerns. The chatbot, powered by Python and the OpenAI API, enables users to have conversations, receive information, and seek assistance in a non-judgmental manner. The conversation data is stored on Azure to help the chatbot remember the user's last conversation history.
