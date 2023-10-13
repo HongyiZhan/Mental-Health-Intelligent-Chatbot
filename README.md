@@ -1,12 +1,12 @@
-
-https://hongyizhan.github.io/Mental-Health-Intelligent-Chatbot/
-# Mental Health Chatbot Project
+# Mental Health Intelligent Chatbot NLP Project
 
 <p align="center">
   <img src="images.jpeg" alt="Logo">
 </p>
 
-Welcome to the Mental Health Chatbot project! This project is designed to provide a friendly, supportive, and confidential environment for users to discuss their mental health concerns. The chatbot, powered by Python and the OpenAI API, enables users to have conversations, receive information, and seek assistance in a non-judgmental manner. The conversation data is stored on Azure to help the chatbot remember the user's last conversation history.
+Welcome to the MindTalk Chatbot! This project is not just about offering support for mental health concerns; it's a gateway to leveraging cutting-edge Natural Language Processing (NLP) for analyzing complex issues related to AI ethics and justice. Our chatbot, powered by Python and the OpenAI API, provides a warm, confidential space where users can engage in meaningful conversations, access information, and seek assistance without fear of judgment. What sets MindTalk apart is its ability to store conversation data on Azure, allowing the chatbot to recall and provide continuity in user interactions, enabling a more holistic approach to addressing mental health and AI ethics.
+
+Here's to a supportive, empathetic, and technologically advanced platform for discussing mental health and exploring the ever-evolving landscape of AI ethics. https://hongyizhan.github.io/Mental-Health-Intelligent-Chatbot/
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ Welcome to the Mental Health Chatbot project! This project is designed to provid
 
 ## Project Overview
 
-Mental health is a critical and often stigmatized topic. This project aims to provide a safe and accessible platform for users to discuss their mental health concerns. The chatbot uses the OpenAI API to generate responses and interact with users in a natural and empathetic manner.
+Mental health is a critical and often stigmatized topic. This project aims to provide a safe and accessible platform for users to discuss their mental health concerns while also advancing the field of AI ethics through Natural Language Processing (NLP). The chatbot uses the OpenAI API to generate responses and interact with users in a natural and empathetic manner. 
 
 ### Features
 
@@ -42,35 +42,30 @@ Before you begin, make sure you have the following:
 - An Azure account for data storage
 - An HTML web server
 
-### Installation
+### Innovative Workflow
 
-1. Clone the repository to your local machine:
+The core innovation of our project lies in its workflow, which is meticulously crafted to provide a tailored and continuously evolving experience for our users:
 
-   ```bash
-   git clone https://github.com/yourusername/mental-health-chatbot.git
-   ```
+1. **User Identification**: 
+   - A user clicks on the chatbot link and is led to a login page.
+   - The user enters a unique identifier assigned to them during the initial session.
+<p align="center">
+  <img src="images.jpeg" alt="Logo">
+</p>
 
-2. Install the required Python packages:
+2. **Engaging Conversation**: 
+   - Once logged in, the user proceeds to the chat page to start a conversation with the chatbot.
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+3. **Data Retention**: 
+   - After the initial chat session, the user finishes the conversation.
 
-3. Configure your OpenAI API key and Azure storage credentials.
+4. **Session Continuity**: 
+   - When the user returns to the link after several days have passed, a repeatable session is initiated.
+   - The user is led back to the login page and enters their unique identifier from the initial session.
 
-4. Set up your HTML web server to host the web interface.
-
-### Usage
-
-1. Start the Python chatbot server:
-
-   ```bash
-   python chatbot.py
-   ```
-
-2. Access the HTML web interface by visiting the URL of your web server.
-
-3. Interact with the chatbot through the web interface. The chatbot will provide responses, and the conversation data will be stored on Azure.
+5. **Personalized Experience**: 
+   - Based on the identifier, the chatbot "remembers" the conversation from the past for that specific user.
+   - The chatbot leverages this historical data to generate a new conversation, often with follow-up questions based on the prior chat.
 
 ## Contributing
 
