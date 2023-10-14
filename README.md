@@ -13,21 +13,12 @@ Here's to a supportive, empathetic, and technologically advanced platform for di
 - [Project Overview](#project-overview)
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+- [Responsibility](#responsibility)
 
 ## Project Overview
 
 Mental health is a critical and often stigmatized topic. This project aims to provide a safe and accessible platform for users to discuss their mental health concerns while also advancing the field of AI ethics through Natural Language Processing (NLP). The chatbot uses the OpenAI API to generate responses and interact with users in a natural and empathetic manner. 
-
-### Features
-
-- OpenAI integration for intelligent responses.
-- Azure storage for conversation history.
-- User-friendly HTML web interface for chatting.
-- A safe and non-judgmental space for users to talk about mental health.
 
 ## Getting Started
 
@@ -37,10 +28,10 @@ Follow these instructions to get the project up and running on your local machin
 
 Before you begin, make sure you have the following:
 
-- Python 3.x installed
-- An OpenAI API key
-- An Azure account for data storage
-- An HTML web server
+- Python 3.x installed for processing the web back-end 
+- An OpenAI API key to generate responses
+- An Azure account for conversation histor storage
+- An User-friendly HTML web interface for chatting
 
 ### Innovative Workflow
 
@@ -50,11 +41,14 @@ The core innovation of our project lies in its workflow, which is meticulously c
    - A user clicks on the chatbot link and is led to a login page.
    - The user enters a unique identifier assigned to them during the initial session.
 <p align="center">
-  <img src="images.jpeg" alt="Logo">
+  <img src="web.png" alt="web">
 </p>
 
 2. **Engaging Conversation**: 
    - Once logged in, the user proceeds to the chat page to start a conversation with the chatbot.
+<p align="center">
+  <img src="chat.png" alt="chat">
+</p>
 
 3. **Data Retention**: 
    - After the initial chat session, the user finishes the conversation.
@@ -68,6 +62,12 @@ The core innovation of our project lies in its workflow, which is meticulously c
    - The chatbot leverages this historical data to generate a new conversation, often with follow-up questions based on the prior chat.
 
 ## Contributing
+
+This project was spearheaded by **Hongyi Zhan**, who dedicated his time and expertise to bring the MindTalk Chatbot to life. Hongyi's passion for technology, mental health, and AI ethics was a driving force behind this endeavor. 
+
+Additionally, we are grateful for the valuable guidance and support provided by **Elizabeth Han**, Hongyi's supervisor. Her expertise and insights played a pivotal role in shaping the project's direction and ensuring its success.
+
+This project is a result of the collaborative efforts and commitment of both Hongyi and Elizabeth, and we extend our appreciation to them for their contributions to this meaningful initiative.
 
 We welcome contributions to improve and expand the functionality of the Mental Health Chatbot project. If you would like to contribute, please follow these steps:
 
@@ -83,11 +83,13 @@ We welcome contributions to improve and expand the functionality of the Mental H
 
 6. Your pull request will be reviewed, and feedback will be provided.
 
-## License
+## Responsibility
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+**Please Note:** The MindTalk Chatbot project is intended solely for academic research and educational purposes related to AI and mental health. It is not intended for or to be used in any commercial, business, or for-profit capacity at this time.
 
-We hope that this Mental Health Chatbot project can contribute to providing a supportive and empathetic environment for individuals seeking assistance with their mental health concerns. Please use it responsibly and with empathy.
-```
+Users of this project are kindly requested to adhere to this principle of academic research and to refrain from using the chatbot or its components for any commercial or business purposes without prior explicit consent.
 
-Make sure to replace `images/chatbot-image.png` and `images/logo-image.png` with the actual file paths to your chatbot and logo images within your repository.
+We are committed to fostering a collaborative academic environment where the focus is on advancing AI and mental health research. Your cooperation in maintaining this distinction is greatly appreciated.
+
+For any inquiries or requests related to commercial or business use, please contact us [hongyi.zhan@mail.mcgill.ca](hongyi.zhan@mail.mcgill.ca) for further discussion and potential collaboration.
+
